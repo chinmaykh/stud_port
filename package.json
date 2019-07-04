@@ -1,0 +1,14 @@
+{
+  "name": "npsrnr_student_portal",
+  "version": "1.0.0",
+  "description": "An application to digitize NPS RNR",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chinmay K Haritas",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
+}

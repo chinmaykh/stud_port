@@ -1,0 +1,45 @@
+var myApp = angular.module('myApp', ['ngRoute']);
+
+myApp.config(function($routeProvider){
+	$routeProvider.when('/', {
+		templateUrl:'views/start.html'
+	})
+	.when('/login',{
+		controller:'LoginController',
+		templateUrl:'views/login.html'
+	})
+	.when('/home/student',{
+		controller:'HomeController',
+		templateUrl:'views/home_student.html'
+	})
+	.when('/home/teacher',{
+		controller:'HomeController',
+		templateUrl:'views/home_teacher.html'
+	})
+	.when('/room',{
+		controller:'RoomsController',
+		templateUrl:'views/room_booking.html'
+	})
+	.when('/room/mybookings',{
+		controller:'RoomsController',
+		templateUrl:'views/rooms_delete.html'
+	})
+	.when('/chats',{
+		controller:'GroupController',
+		templateUrl:'views/smsg.html'
+	})
+	.when('/timetable',{
+		controller:'TimeTableController',
+		templateUrl:'views/timetable.html'
+	})
+	.when('/chats/mobile',{
+		controller:'GroupController',
+		templateUrl:'views/mobile_message.html'
+	})
+	.when('/cmsg',{
+		templateUrl:'views/cmsg.html'
+	})
+	.otherwise({
+		redirectTo:'/'
+	})
+})

@@ -1,0 +1,35 @@
+-------------------SSCSCSCSCSCSCSC---------------SSCSCSCSCSCSCSC---------------SSCSCSCSCSCSCSC---------
+
+                                ___________ Student portal__________ 
+
+Author: Chinmay K Haritas
+
+Copyright 2018 - All violaters are punishable by law
+
+
+Developer Guide v1
+
+Local path for mongod
+
+cd C:/program files/mongodb/server/3.4/bin
+mongod --dbpath C:/data/database --storageEngine mmapv1
+
+
+cd C:/program files/mongodb/server/3.4/bin
+mongod --dbpath C:/data/database --storageEngine mmapv1
+
+
+For acquiring lists of any sorts use URL extension '/list/(item)'
+For validation while Log in use use URL extension '/validate/(item)'
+For acquiring complete JSON data of one object (Student or Teacher or Class) use as required
+
+Only required data to be submitted in a HTTP request, necessary coding to be at both ends for decoding
+
+models
+
+Always add documentation when adding new features
+
+Front End 
+
+Always simplify by using Angular code, Don't unnecessarily use loops to alter DOM
+Use ng-repeat for DOM change

@@ -1,0 +1,18 @@
+Tasks
+
+Create 'validate.js' for all password accessed pages
+This will ensure that login, local storage and site accessed are in harmony.
+
+Work logs
+
+17 / 05 / 2018
+
+Creating all pages required
+
+27 / 06 / 2018
+
+Almost work is done...
+Need to fix that crazy ntf part
+add ntf for all things
+check out web ntf
+MSGBOX !!!
